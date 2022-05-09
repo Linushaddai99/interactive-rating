@@ -17,6 +17,7 @@ p {
 }
 
 .container {
+    width: 90%;
     max-width: 350px;
     background-color: hsl(213, 19%, 18%) !important;
     border-radius: 15px;
@@ -28,7 +29,10 @@ p {
     padding: 10px;
     background-color: hsl(213, 18%, 26%);
     border-radius: 50%;
-    margin-right: 25px !important;
+}
+
+.rating {
+    justify-content: space-between !important;
 }
 
 .num{
@@ -39,8 +43,9 @@ p {
     border: none;
     color: white !important;
     font-size: 15px;
-    transition: background 350ms ease-in;
+    transition: background-color 350ms ease-in;
 }
+
 
 .num:hover {
     background-color: hsl(25, 97%, 53%);
@@ -79,4 +84,26 @@ p {
     border-radius: 30px;
     font-size: smaller;
     color: hsl(25, 97%, 53%);
+}
+
+@media screen and (max-width: 450px) {
+    .rating {
+        width: 80% !important;
+        text-align: center !important;
+        justify-content: space-around !important;
+    }
+
+    .num{
+        background-color: hsl(213, 18%, 26%);
+        border-radius: 50%;
+        padding: 8px 12px !important;
+        margin-left: 1rem;
+        text-align: center;
+        border: none;
+        color: white !important;
+        font-size: 15px;
+        transition: background 350ms ease-in;
+    }
+
+
 }
