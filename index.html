@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Interactive Rating</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='bootstrap-5.0.2/dist/css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    
+    <div class="bucket">
+        <div class="container p-4">
+            <div class="star-div mb-4">
+                <img src="img/icon-star.svg" class="img-fluid  star mx-auto">
+            </div>
+    
+            <h4 class="text-light my-2">How did we do?</h4>
+            <small class="text-muted">Please let us know how we did with your support request. All feedback is appreciated<br> to help us improve our offering!</small>
+            <div class="d-flex my-4 rating">
+                <input type="submit" class="num text-center me-4" name="one" value="1">
+                <input type="submit" class="num text-center me-4" name="one" value="2">
+                <input type="submit" class="num text-center me-4" name="one" value="3">
+                <input type="submit" class="num text-center me-4" name="one" value="4">
+                <input type="submit" class="num text-center me-4" name="one" value="5">
+                
+            </div>
+
+            <div class="text-center">
+                <input type="submit" class="submit py-2" value="SUBMIT">
+            </div>
+        </div>
+    </div>
+
+    <div class="popup-wrapper">
+        <div class="container thank-you text-center p-4">
+            <div class="my-4">
+                <img src="img/illustration-thank-you.svg">
+            </div>
+
+            <div class="text-center button2 my-3 mx-auto mb-4">You selected 4 out of 5</div>
+
+            <h3 class="text-light">Thank you!</h3>
+            <small class="text-muted">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</small>
+        </div>
+    </div>
+
+
+    <script src='app.js'></script>
+</body>
+</html>

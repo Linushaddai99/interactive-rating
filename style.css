@@ -1,0 +1,82 @@
+@import url('https://fonts.google.com/specimen/Overpass');
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: [Overpass];
+}
+
+p {
+    font-size: 15px;
+}
+
+.bucket {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 350px;
+    background-color: hsl(213, 19%, 18%) !important;
+    border-radius: 15px;
+}
+
+.star {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    background-color: hsl(213, 18%, 26%);
+    border-radius: 50%;
+    margin-right: 25px !important;
+}
+
+.num{
+    background-color: hsl(213, 18%, 26%);
+    border-radius: 50%;
+    padding: 8px 15px !important;
+    text-align: center;
+    border: none;
+    color: white !important;
+    font-size: 15px;
+    transition: background 350ms ease-in;
+}
+
+.num:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white !important;
+}
+
+.submit {
+    width: 100%;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 30px;
+    font-size: 10px;
+    color: white;
+    transition: background 350ms ease-in;
+}
+
+.submit:hover {
+    background-color: white;
+    color:hsl(25, 97%, 53%)
+}
+
+.popup-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: 10%;
+    display: none;
+}
+
+
+.button2 {
+    background-color: hsl(213, 18%, 26%) !important;
+    border: none;
+    width: 200px;
+    border-radius: 30px;
+    font-size: smaller;
+    color: hsl(25, 97%, 53%);
+}
